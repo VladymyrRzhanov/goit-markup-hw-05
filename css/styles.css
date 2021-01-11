@@ -588,7 +588,9 @@ li {
 .projects-thumb {
   position: relative;
   overflow: hidden;
+  display: flex;
 }
+
 .project-overlay {
   position: absolute;
   width: 100%;
