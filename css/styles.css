@@ -667,15 +667,11 @@ footer {
   display: block;
   margin-bottom: 20px;
   margin-right: 0;
-}
-
-.studio {
   color: var(--white-color);
 }
 
 address,
 .contacts-footer {
-  margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -683,7 +679,11 @@ address,
   color: var(--white-color);
 }
 
-.contacts-footer:last-child {
+.address-item {
+  margin-bottom: 9px;
+}
+
+.address-item:last-child {
   margin-bottom: 0;
 }
 
